@@ -4,7 +4,7 @@ import asyncio
 import json
 
 with open("Json/Token.json", "r") as Token:
-    Token = Token.Token
+    Token = Token["Token"]
     Prefix = "~"
 
 bot = commands.Bot(command_prefix="~", case_insensitive=True)
