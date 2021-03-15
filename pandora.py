@@ -3,7 +3,7 @@ from discord.ext import commands
 import asyncio
 import json
 
-with open("json/Token.json", "r") as Token:
+with open("Json/Token.json", "r") as Token:
     Token = Token.Token
     Prefix = "~"
 
